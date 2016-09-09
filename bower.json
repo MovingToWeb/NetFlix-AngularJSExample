@@ -1,0 +1,26 @@
+{
+  "name": "netflix-example",
+  "description": "NetFlix Angular JS Example",
+  "main": "index.js",
+  "authors": [
+    "Ajay"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "netflix"
+  ],
+  "homepage": "https://github.com/MovingToWeb/NetFlix-AngularJSExample",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-mocks": "^1.5.8"
+  }
+}
