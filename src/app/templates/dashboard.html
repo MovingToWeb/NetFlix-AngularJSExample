@@ -1,0 +1,20 @@
+<div>
+    <h1>Login</h1>
+    <form ng-submit='login()'>
+        <div class='field'>
+            <label class='required'>User Name</label>
+            <input type='text' ng-model='user.user_id'>
+            <span class='validation'>{{validations.user_id}}</span>
+        </div>
+        <div class='field'>
+            <label class='required'>Password</label>
+            <input type='password' ng-model='user.password'>
+            <span class='validation'>{{validations.password}}</span>
+        </div>
+        <p class='validation'>{{validations.message}}</p>
+        <div class='field'>
+            <button type='submit'>Login</button>
+            <a href="#/register">Register</a>
+        </div>
+    </form>
+</div>
